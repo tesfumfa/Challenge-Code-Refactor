@@ -1,0 +1,125 @@
+/* generic override styling for page */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    background-color: #d9dcd6;
+  }
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  p {
+    font-size: 16px;
+  }
+  /* <header> styling start */
+  header {
+    padding: 20px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+  }
+  header h1 {
+    display: inline-block;
+    font-size: 48px;
+  }
+  header h1 .seo {
+    color: #d9dcd6;
+  }
+  header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 20px;
+    display: inline;
+  }
+  header nav ul {
+    list-style-type: none;
+  }
+  header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+  }
+  /* <header> styling end */
+  /* hero styling start */
+  .hero img {
+    max-width: 100%;
+    object-fit: scale-down;
+    margin-bottom: 25px;
+  }
+  /* hero styling end */
+  /* left section styling start */
+  .content {
+    width: 75%;
+    display: inline-block;
+    object-fit: scale-down;
+  
+    margin-left: 20px;
+  }
+  .float-left {
+    float: left;
+    margin-right: 25px;
+  }
+  .float-right {
+    float: right;
+    margin-left: 25px;
+  }
+  .searchonlinesocial {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+  }
+  .searchonlinesocial img {
+    max-height: 200px;
+    max-width: 100%;
+    object-fit: scale-down;
+  }
+  .searchonlinesocial h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+  /* left sections styling end */
+  /* right section styling start */
+  .benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    background-color: #2589bd;
+  }
+  .benefit-leadbrandcost {
+    margin-bottom: 32px;
+    color: #ffffff;
+  }
+  .benefit-leadbrandcost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .benefit-leadbrandcost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+  }
+  /* right section styling end */
+  /* <footer> styling start */
+  footer {
+    padding: 30px;
+    clear: both;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    text-align: center;
+  }
+  footer h2 {
+    font-size: 20px;
+  }
+  /* <footer> styling end */
